@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Ahmed",
+    "picture": "https://i.pravatar.cc/150?u=sarah",
+    "email": "sarah.a@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["High School", "Bestie"],
+    "bio": "Childhood friend who loves photography and traveling. We used to share lunch every day.",
+    "goal": 14,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 2,
+    "name": "Anika Kabir",
+    "picture": "https://i.pravatar.cc/150?u=tanvir",
+    "email": "tanvir.h@work.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["Office", "Techie"],
+    "bio": "Brilliant software engineer and a great mentor. We often discuss system architecture over coffee.",
+    "goal": 7,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 3,
+    "name": "Tanvir Hossain",
+    "picture": "https://i.pravatar.cc/150?u=anika",
+    "email": "anika.k@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["University", "Study Buddy"],
+    "bio": "Always helped me with Calculus. She's now working as a data analyst and loves cats.",
+    "goal": 14,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 4,
+    "name": "Rakib Uddin",
+    "picture": "https://i.pravatar.cc/150?u=rakib",
+    "email": "rakib.u@fitness.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": ["Gym", "Fitness"],
+    "bio": "My workout partner. He motivates me to hit the gym even on Mondays. Real health freak!",
+    "goal": 3,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 5,
+    "name": "Maliha Zaman",
+    "picture": "https://i.pravatar.cc/150?u=nayeem",
+    "email": "nayeem.i@travel.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["Childhood", "Neighbor"],
+    "bio": "Lived next door for 10 years. We used to play cricket every afternoon. Haven't talked in a while.",
+    "goal": 30,
+    "next_due_date": "2026-03-01"
+  },
+  {
+    "id": 6,
+    "name": "Nayeem Islam",
+    "picture": "https://i.pravatar.cc/150?u=maliha",
+    "email": "maliha.z@art.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["Art Class", "Creative"],
+    "bio": "A talented painter who sees beauty in everything. We share an interest in Impressionist art.",
+    "goal": 10,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 7,
+    "name": "Zarin Subah",
+    "picture": "https://i.pravatar.cc/150?u=sajid",
+    "email": "sajid.r@gaming.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["Gaming", "Online"],
+    "bio": "Met through an online RPG. Great team player and always up for a late-night gaming session.",
+    "goal": 15,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 8,
+    "name": "Sajid Rahman",
+    "picture": "https://i.pravatar.cc/150?u=zarin",
+    "email": "zarin.s@literature.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["Book Club", "Close Friend"],
+    "bio": "Voracious reader. We exchange books every month. Her recommendations are always spot on.",
+    "goal": 7,
+    "next_due_date": "2026-04-21"
+  },
+  {
+    "id": 9,
+    "name": "Ishrat Jahan",
+    "picture": "https://i.pravatar.cc/150?u=fahim",
+    "email": "fahim.s@music.com",
+    "days_since_contact": 25,
+    "status": "almost due",
+    "tags": ["Band", "Guitarist"],
+    "bio": "Lead guitarist of our local band. A bit disorganized but a musical genius at heart.",
+    "goal": 30,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 10,
+    "name": "Fahim Shahriar",
+    "picture": "https://i.pravatar.cc/150?u=ishrat",
+    "email": "ishrat.j@cooking.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["Cooking", "Cousin"],
+    "bio": "The best cook in the family. She's teaching me how to bake the perfect chocolate cake.",
+    "goal": 14,
+    "next_due_date": "2026-04-24"
+  }
+]
