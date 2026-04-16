@@ -12,8 +12,10 @@ const Navbar = () => {
         <nav className="bg-white border-b sticky top-0 z-50">
             <div className='flex justify-between items-center py-3 container mx-auto px-4'>
                 <div className="flex items-center gap-2">
-                    <img src={logo} alt="logo" className="w-8 h-8" />
-                    <span className="text-xl font-bold text-green-900">KeenKeeper</span>
+                   
+                    <span className="text-[#1e293b]">Keen</span>
+                    
+                    <span className="text-[#1A4D2E]">Keeper</span>
                 </div>
 
                 <ul className='flex gap-6 items-center'>
