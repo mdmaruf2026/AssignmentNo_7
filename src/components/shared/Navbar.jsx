@@ -4,31 +4,34 @@ import { Home, Clock, BarChart3 } from 'lucide-react';
 
 const Navbar = () => {
     const activeClass = ({ isActive }) => 
-        isActive ? "flex items-center gap-1 text-[#1A4D2E] font-bold border-b-2 border-[#1A4D2E]" 
-                 : "flex items-center gap-1 text-gray-600 hover:text-[#1A4D2E]";
+        isActive ? "flex items-center gap-2 bg-[#1A4D2E] text-white px-4 py-2 rounded-lg font-medium transition-all" 
+                 : "flex items-center gap-2 text-gray-500 hover:text-[#1A4D2E] px-4 py-2 transition-all";
 
     return (
-        <nav className="bg-white border-b sticky top-0 z-50">
-            <div className='flex justify-between items-center py-3 container mx-auto px-4'>
+        <nav className="bg-white sticky top-0 z-50">
+            <div className='flex justify-between items-center py-4 container mx-auto px-4'>
                 <div className="flex items-center text-2xl font-[900] tracking-tighter leading-none">
                     <span className="text-[#1e293b]">Keen</span>
                     <span className="text-[#1A4D2E]">Keeper</span>
                 </div>
 
-                <ul className='flex gap-6 items-center'>
+                <ul className='flex gap-2 items-center'>
                     <li>
-                        <NavLink title="Home" to="/" className={activeClass}>
-                            <Home size={18} /> Home
+                        <NavLink to="/" className={activeClass}>
+                            <Home size={18} />
+                            <span className="text-sm">Home</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink title="Timeline" to="/timeline" className={activeClass}>
-                            <Clock size={18} /> Timeline
+                        <NavLink to="/timeline" className={activeClass}>
+                            <Clock size={18} />
+                            <span className="text-sm">Timeline</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink title="Stats" to="/stats" className={activeClass}>
-                            <BarChart3 size={18} /> Stats
+                        <NavLink to="/stats" className={activeClass}>
+                            <BarChart3 size={18} />
+                            <span className="text-sm">Stats</span>
                         </NavLink>
                     </li>
                 </ul>
