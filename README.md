@@ -1,16 +1,22 @@
-# React + Vite
+# KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KeenKeeper is a modern and intuitive contact management dashboard designed to help users organize and track their connections seamlessly. The application focuses on a clean user experience with a professional look inspired by precise Figma designs.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React.js**: For building a dynamic and component-based user interface.
+- **Tailwind CSS**: For rapid, responsive, and modern UI styling.
+- **Lucide React**: For high-quality, consistent iconography.
+- **React Router**: For smooth client-side navigation between Home, Timeline, and Stats.
 
-## React Compiler
+## Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Dynamic Navigation System**: Features a high-fidelity navigation bar with active state highlighting using a dark-green button style, ensuring users always know their current location.
+- **Polished Brand Identity**: A custom-coded dual-tone logo (KeenKeeper) implemented with pure CSS for maximum sharpness and performance, matching Figma's typography exactly.
+- **Optimized Layout & UX**: A fully responsive, sticky navigation bar with a clean, borderless design that provides a premium desktop and mobile experience.
 
-## Expanding the ESLint configuration
+## How to Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the Repo:**
+   ```bash
+   git clone [https://github.com/your-username/keenkeeper.git](https://github.com/your-username/keenkeeper.git)
