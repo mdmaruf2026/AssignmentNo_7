@@ -15,8 +15,3 @@ KeenKeeper is a modern and intuitive contact management dashboard designed to he
 - **Polished Brand Identity**: A custom-coded dual-tone logo (KeenKeeper) implemented with pure CSS for maximum sharpness and performance, matching Figma's typography exactly.
 - **Optimized Layout & UX**: A fully responsive, sticky navigation bar with a clean, borderless design that provides a premium desktop and mobile experience.
 
-## How to Run Locally
-
-1. **Clone the Repo:**
-   ```bash
-   git clone [https://github.com/your-username/keenkeeper.git](https://github.com/your-username/keenkeeper.git)
